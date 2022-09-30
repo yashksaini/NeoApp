@@ -1,0 +1,274 @@
+.profile_box {
+    padding: 10px;
+    position: relative;
+    height: 330px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.back_img {
+    width: 100%;
+    height: 180px;
+    border-radius: 15px;
+}
+
+.profile_img {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 8px;
+    border-radius: 500px;
+    width: 180px;
+    height: 180px;
+}
+
+.head_text {
+    position: absolute;
+    top: 80px;
+    right: 30%;
+    font-size: 60px;
+    color: white;
+}
+
+.username_display {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    width: auto;
+    height: 60px;
+    border-radius: 15px;
+    background-color: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.username_display h3 {
+    font-size: 34px;
+    color: #474747;
+    padding-left: 20px;
+}
+
+.profile_edit {
+    position: absolute;
+    top: 280px;
+    left: 120px;
+    width: 140px;
+    border-radius: 100px;
+    color: white;
+    background-color: #2496FF;
+}
+
+.profile_edit:hover {
+    background-color: white;
+    border-style: solid;
+    border-color: #2496FF;
+}
+
+.box_left {
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 10px;
+    height: 220px;
+    width: 100%;
+}
+
+.box_right {
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 10px;
+    height: auto;
+    min-height: 220px;
+    width: 100%;
+}
+
+.about_text {
+    color: #474747;
+}
+
+.profile_name {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    min-height: 60px;
+    padding-left: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.profile_name h3 {
+    font-size: 22px;
+    color: #474747;
+    padding-left: 20px;
+}
+
+.det_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_edit1 {
+    margin-left: 20px;
+    width: 100px;
+    border-radius: 100px;
+    color: white;
+    background-color: #2496FF;
+}
+
+.profile_edit1:hover {
+    background-color: white;
+    border-style: solid;
+    border-color: #2496FF;
+}
+
+.total_friend {
+    margin-left: 0.5%;
+    width: 49%;
+    height: auto;
+    min-height: 130px;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2496FF;
+}
+
+.total_friend h4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.total_friend i {
+    color: #2496FF;
+}
+
+.images {
+    width: 120px;
+    height: 120px;
+    border-radius: 150px;
+    margin-top: 10px;
+    transition: all 0.5s;
+    box-shadow: 0px 2px 2px #2496FF;
+}
+
+.images:hover {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transform: translateY(10px);
+    transition: all 0.5s;
+}
+
+.select_text {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.btn_update {
+    width: 220px;
+    height: auto;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    background-color: #2496FF;
+    font-size: 18px;
+}
+
+.btn_update:hover {
+    color: white;
+}
+
+.input_box {
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.input_box:focus {
+    box-shadow: none;
+}
+
+.total_friend h2 {
+    font-size: 55px;
+}
+
+
+@media screen and (max-width:992px) {
+    .profile_box {
+        padding: 5px;
+        height: 210px;
+        border-radius: 15px;
+    }
+
+    .back_img {
+        height: 120px;
+        border-radius: 10px;
+    }
+
+    .profile_img {
+        top: 80px;
+        left: 20px;
+        border-width: 4px;
+        width: 90px;
+        height: 90px;
+    }
+
+    .profile_edit {
+        top: 170px;
+        left: 25px;
+        width: 80px;
+        font-size: 12px;
+    }
+
+    .username_display {
+        top: 140px;
+        left: 120px;
+        height: auto;
+    }
+
+    .username_display h3 {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .head_text {
+        top: 30px;
+        right: 30%;
+        font-size: 30px;
+    }
+
+    .total_friend h4 {
+        font-size: 18px;
+    }
+
+    .total_friend h2 {
+        font-size: 36px;
+    }
+
+    .images {
+        width: 80px;
+        height: 80px;
+        border-radius: 150px;
+        margin-top: 10px;
+    }
+
+    .images:hover {
+        width: 70px;
+        height: 70px;
+        transform: translateY(10px);
+        transition: all 0.5s;
+    }
+
+}
